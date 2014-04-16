@@ -14,12 +14,15 @@ This gives you a rough estimate on where you are on the waitlist. It doesn't acc
 1a.Known bug: If your name appears on the page in a comment but on neither the going or waitlist people, the script says "you're going."
 1b.To permanently install a bookmarklet on Firefox, merely drag the below code to the bookmarklet menu.
 
-2.If you cancel on the same day, thus offering up your position, it is courteous to leave a comment advising next person in line. To copy that person's name, run whonext.js : 
+
+2.If you cancel on the same day, thus offering up your position, it is courteous to leave a comment advising next person in line. 
+BEFORE clicking cancel, run this script to copy a message for that person: whonext.js : 
 ```javascript
 javascript:(function(a){var b=a.createElement("script");b.src="https://raw.github.com/AnneTheAgile/meetup-whereami/master/whonext.js";a.getElementsByTagName("head")[0].appendChild(b)})(document);
 ```
 
 2a.NB: The URL's differ for [2] vs [1] because AnneTheAgile's pull request is pending.
+
 
 3.For your testing pleasure, three NYC groups whose events are often oversubscribed are:
 http://www.meetup.com/nycpython/
