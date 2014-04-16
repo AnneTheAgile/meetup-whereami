@@ -10,5 +10,7 @@
     alert(subItem.text + " is the next person who will get to go from the waitlist");
   else 
     alert("Error? Nothing in ; "+subItem.text)
+    
+  window.prompt("Copy to clipboard: Ctrl+C, Enter", subItem.text);
 
 })(window);
