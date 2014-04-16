@@ -6,10 +6,13 @@
  
   console.log(subItem.text); // "Sub-menu Item"
 
-  if (subItem.text != "")
+
+  if (subItem.text != "") {
     var x = "I am cancelling, so now "+ subItem.text +" gets to go."; 
     // does nil on Firefox when from github? Worked in test mode; window.prompt
     alert(subItem.text + " is the next person who will get to go from the waitlist\n"+"Copy and paste this as a comment\n", x);
+    //Example; I am cancelling, so now Anne gets to go.
+    }
   else 
     alert("Error? Nothing in ; "+subItem.text)
 
